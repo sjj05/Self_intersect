@@ -10,14 +10,14 @@ def fy(t):
 def fxy(t):
     return fx(t), fy(t)
 
-def fx2(t):
+def ljousx(t):
     return np.sin(3*t)
 
-def fy2(t):
+def ljousy(t):
     return np.sin(4*t)
 
-def fxy2(t):
-    return fx2(t), fy2(t)
+def ljous(t):
+    return ljousx(t), ljousy(t)
 
 def hypox(t):
     R = 32
